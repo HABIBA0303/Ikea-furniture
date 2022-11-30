@@ -16,12 +16,12 @@ const Navbar = () => {
 						<div className="lg:w-0 w-full">
 							<Link
 								to="/"
-								aria-label="Resale Furniture"
-								title="Resale Furniture"
+								aria-label="Ikea Furniture"
+								title="Ikea Furniture"
 								className="inline-flex items-center">
 								<img className="sm:w-10 w-8" src={logo} alt="" />
 								<span className="ml-2 sm:block hidden sm:text-xl font-bold tracking-wide">
-									ResaleFurniture
+									IkeaFurniture
 								</span>
 							</Link>
 						</div>
