@@ -1,14 +1,14 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import banner from '../../../Pages/assets/banner/Business_SVG.svg'
+import banner from '../../../Pages/assets/images/Professionals-Sup-Promo-hq-3_620_354_60_s_c1.jpg'
 const Banner = () => {
     return (
         <div>
             <section>
                 <div className="sm:container flex flex-col justify-center sm:p-6 p-2 mx-auto sm:py-12 lg:py-24 lg:flex-row lg:justify-between">
                     <div className="flex flex-col justify-center sm:p-6 text-center rounded-sm lg:max-w-md xl:max-w-lg lg:text-left">
-                        <h1 className=" text-xl font-bold leading-none sm:text-6xl">Your Home, <br />
-                            <span className="dark:text-violet-400">Your </span>Way
+                        <h1 className=" text-xl font-bold leading-none sm:text-3xl">Decorate Your House, <br />
+                            <span className="dark:text-violet-400">As you thought.. </span>
                         </h1>
                         <p className="mt-6 mb-8 md:text-2xl font-semibold text-xl sm:mb-12">Chose from wide collection of Bengal &
                             <br className="hidden md:inline lg:hidden" /><span className='lg:pl-2'>Decorate your home in your Way.</span>

@@ -1,0 +1,96 @@
+[debug] [2022-11-30T17:40:15.979Z] ----------------------------------------------------------------------
+[debug] [2022-11-30T17:40:15.982Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Habiba\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2022-11-30T17:40:15.983Z] CLI Version:   11.15.0
+[debug] [2022-11-30T17:40:15.983Z] Platform:      win32
+[debug] [2022-11-30T17:40:15.983Z] Node Version:  v16.16.0
+[debug] [2022-11-30T17:40:15.988Z] Time:          Wed Nov 30 2022 23:40:15 GMT+0600 (Bangladesh Standard Time)
+[debug] [2022-11-30T17:40:15.989Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-11-30T17:40:15.994Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2022-11-30T17:40:16.125Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-11-30T17:40:16.126Z] > authorizing via signed-in user (rofola22@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\projects\Assignment-12\client
+
+Before we get started, keep in mind:
+
+  * You are currently outside your home directory
+  * You are initializing within an existing Firebase project directory
+
+[debug] [2022-11-30T17:40:16.884Z] <<< [apiv2][status] GET https://firebase-public.firebaseio.com/cli.json 200
+[debug] [2022-11-30T17:40:16.885Z] <<< [apiv2][body] GET https://firebase-public.firebaseio.com/cli.json {"cloudBuildErrorAfter":1594252800000,"cloudBuildWarnAfter":1590019200000,"defaultNode10After":1594252800000,"minVersion":"3.0.5","node8DeploysDisabledAfter":1613390400000,"node8RuntimeDisabledAfter":1615809600000,"node8WarnAfter":1600128000000}
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2022-11-30T17:40:56.455Z] Using project from CLI flag: regal-furniture-ab3ef
+[debug] [2022-11-30T17:40:56.456Z] > refreshing access token with scopes: []
+[debug] [2022-11-30T17:40:56.458Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2022-11-30T17:40:56.459Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2022-11-30T17:40:56.747Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2022-11-30T17:40:56.747Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2022-11-30T17:40:56.781Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/regal-furniture-ab3ef [none]
+[debug] [2022-11-30T17:40:57.257Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/regal-furniture-ab3ef 403
+[debug] [2022-11-30T17:40:57.258Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/regal-furniture-ab3ef {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2022-11-30T17:40:57.261Z] HTTP Error: 403, The caller does not have permission
+[debug] [2022-11-30T17:40:57.516Z] FirebaseError: HTTP Error: 403, The caller does not have permission
+    at responseToError (C:\Users\Habiba\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:49:12)
+    at RetryOperation._fn (C:\Users\Habiba\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:288:77)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[error] 
+[error] Error: Failed to get Firebase project regal-furniture-ab3ef. Please make sure the project exists and your account has permission to access it.
+[debug] [2022-11-30T17:42:12.291Z] ----------------------------------------------------------------------
+[debug] [2022-11-30T17:42:12.294Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Habiba\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2022-11-30T17:42:12.294Z] CLI Version:   11.15.0
+[debug] [2022-11-30T17:42:12.295Z] Platform:      win32
+[debug] [2022-11-30T17:42:12.295Z] Node Version:  v16.16.0
+[debug] [2022-11-30T17:42:12.296Z] Time:          Wed Nov 30 2022 23:42:12 GMT+0600 (Bangladesh Standard Time)
+[debug] [2022-11-30T17:42:12.296Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-11-30T17:42:12.398Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-11-30T17:42:12.399Z] > authorizing via signed-in user (rofola22@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\projects\Assignment-12\client
+
+Before we get started, keep in mind:
+
+  * You are currently outside your home directory
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2022-11-30T17:42:31.876Z] Using project from CLI flag: regal-furniture-ab3ef
+[debug] [2022-11-30T17:42:31.880Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/regal-furniture-ab3ef [none]
+[debug] [2022-11-30T17:42:32.594Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/regal-furniture-ab3ef 403
+[debug] [2022-11-30T17:42:32.595Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/regal-furniture-ab3ef {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2022-11-30T17:42:32.599Z] HTTP Error: 403, The caller does not have permission
+[debug] [2022-11-30T17:42:32.841Z] FirebaseError: HTTP Error: 403, The caller does not have permission
+    at responseToError (C:\Users\Habiba\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:49:12)
+    at RetryOperation._fn (C:\Users\Habiba\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:288:77)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[error] 
+[error] Error: Failed to get Firebase project regal-furniture-ab3ef. Please make sure the project exists and your account has permission to access it.

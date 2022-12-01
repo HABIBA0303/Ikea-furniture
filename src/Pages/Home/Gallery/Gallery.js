@@ -1,13 +1,13 @@
 import React from 'react';
-import img1 from '../../../Pages/assets/images/600-x-1005-1.jpg'
-import img2 from '../../../Pages/assets/images/600-x-1005.jpg'
-import img3 from '../../../Pages/assets/images/600x1005.jpg'
-import img4 from '../../../Pages/assets/images/700-x-936-13.jpg'
-import img5 from '../../../Pages/assets/images/700-x-936-3.jpg'
-import img6 from '../../../Pages/assets/images/700-x-936-4.jpg'
-import img7 from '../../../Pages/assets/images/700-x-936-7.jpg'
-import img8 from '../../../Pages/assets/images/rock-in-chair.jpg'
-import img9 from '../../../Pages/assets/images/700-x-936-8.jpg'
+import img1 from '../../../Pages/assets/images/1s.jpg'
+import img2 from '../../../Pages/assets/images/2s.jpg'
+import img3 from '../../../Pages/assets/images/3s.jpg'
+import img4 from '../../../Pages/assets/images/4s.jpg'
+import img5 from '../../../Pages/assets/images/5b.jpg'
+import img6 from '../../../Pages/assets/images/6s.jpg'
+import img7 from '../../../Pages/assets/images/7s.jpg'
+import img8 from '../../../Pages/assets/images/8s.jpg'
+import img9 from '../../../Pages/assets/images/9s.jpg'
 import PhotoAlbum from 'react-photo-album';
 const Gallery = () => {
 

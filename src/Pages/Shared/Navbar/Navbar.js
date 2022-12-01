@@ -2,7 +2,7 @@ import React, { useContext, useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { Link, NavLink } from "react-router-dom";
 import { AuthContext } from "../../../Contexts/AuthProvider/AuthProvider";
-import logo from '../../../Pages/assets/logo.jpg'
+import logo from '../../../Pages/assets/images/logor.jpg'
 import person from '../../../Pages/assets/icons/person.svg'
 const Navbar = () => {
 	const { user, userLogOut } = useContext(AuthContext);

@@ -230,15 +230,15 @@ const SignUp = () => {
 										className="bg-gray-50 border border-gray-300 text-gray-900 flex-col  flex items-center font-bold  sm:text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600   w-full p-2.5  dark:border-gray-600 dark:placeholder-gray-400 dark:focus:ring-blue-500 dark:focus:border-blue-500">
 
 
-										{<><RiImageAddFill className="w-7 h-7" />
-											<label htmlFor="photo"><h1 className="underline cursor-pointer">Upload Image </h1></label></>}
+
+										<label htmlFor="photo"> </label >
 
 										<input
 											type="file"
 											name="image"
 											accept="image/*"
 											id="photo"
-											hidden
+
 
 											{...register("image", { required: "Photo is required" })} />
 									</div>
